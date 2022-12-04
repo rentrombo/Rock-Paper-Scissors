@@ -51,4 +51,5 @@ function getResult(){
     if(computerChoice === 'scissors' && userChoice === "rock"){
         result = "You win"
     }
+    resultDisplay.innerHTML = result
 }
